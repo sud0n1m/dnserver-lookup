@@ -1,0 +1,3 @@
+cursor.com
+openai.com
+anthropic.com 
