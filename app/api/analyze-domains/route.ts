@@ -6,7 +6,7 @@ const PROVIDER_REGEXES: { [key: string]: RegExp } = {
   'Akamai Edge DNS': /\.akamaiedgedns\.(com|net)$/i,            // e.g. ns1-2048.akamaiedgedns.net
   'Amazon Route 53': /awsdns-[0-9a-z]+\.(?:com|net|org|co\.uk)$/i, // e.g. ns-2048.awsdns-64.net
   'Azure DNS': /\.azure-dns\.(?:com|net|org|info)$/i,           // e.g. ns1-xyz.azure-dns.net
-  'Google Cloud DNS': /\.(?:ns-cloud-[a-z]\d+)\.googledomains\.com$/i, // e.g. ns-cloud-a1.googledomains.com
+  'Google Cloud DNS': /\.googledomains\.com$/i,
   'Cloudflare': /\.(?:ns[0-9]+\.)?cloudflare\.com$/i,          // e.g. alice.ns.cloudflare.com
 
   // Specialist / API-driven Providers
